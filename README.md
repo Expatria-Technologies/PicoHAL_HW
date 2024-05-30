@@ -13,7 +13,6 @@ Please consider buying a board to support our open-source designs.
 
 The key features of the PicoHAL:
 
-  - Familiar Ardunion Uno form factor
   - RP2040 MCU
   - W5500 Ethernet module
   - Familiar Arduino Uno inspired form factor
