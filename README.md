@@ -22,6 +22,9 @@ https://github.com/Expatria-Technologies/picohal-firmware
 For reference, the GRBLHAL PicoHAL plugin code is located here:   
 https://github.com/Expatria-Technologies/Plugins_picoHAL
 
+A basic GRBLHAL mapping for the CNC shield is located here:  
+https://github.com/Expatria-Technologies/RP2040/tree/picohal_map
+
 LinuxCNC Remora/Ethernet component is located here:   
 https://github.com/Expatria-Technologies/Remora-RP2040-W5500
 
