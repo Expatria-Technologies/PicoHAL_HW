@@ -1,9 +1,9 @@
 ![Logo](/readme_images/logo_sm.jpg)
-# Flexi-HAL CNC Controller
+# PicoHAL CNC Controller
 <img src="/readme_images/Board_Photo.jpg" width="800">
 
 
-Expatria Technologies GRBLHAL and LinuxCNC (and more!) CNC control board
+Expatria Technologies GRBLHAL and LinuxCNC (and more!) CNC accessory board
 
 The key features of the PicoHAL:
 
@@ -21,6 +21,9 @@ https://github.com/Expatria-Technologies/picohal-firmware
 
 For reference, the GRBLHAL PicoHAL plugin code is located here:   
 https://github.com/Expatria-Technologies/Plugins_picoHAL
+
+A basic GRBLHAL mapping for the CNC shield is located here:  
+https://github.com/Expatria-Technologies/RP2040/tree/picohal_map
 
 LinuxCNC Remora/Ethernet component is located here:   
 https://github.com/Expatria-Technologies/Remora-RP2040-W5500
