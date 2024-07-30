@@ -33,13 +33,9 @@ Bottom side pin labels:
 
 <img src="/readme_images/backside.png" width="700">
 
-Pinout List:
-
-<img src="/readme_images/Pinout.png" width="900">
-
 ### RP2040 Microcontroller
 
-The PicoHAL is based around the Raspberry Pi RP2040 microcontroller.  The unique features of this MCU allow the PicoHAL flexibility to support both USB, Ethernet and RS485 connectivity.  The large onboard flash chip (128 Mb) allows the PicoHAL to provide significant local storage for Micropython firmware, gcode scripts and the GRBLHAL webui.
+The PicoHAL is based around the Raspberry Pi RP2040 microcontroller.  The unique features of this MCU allow the PicoHAL flexibility to support both USB, Ethernet and RS485 connectivity.  The large onboard flash chip (16 MB) allows the PicoHAL to provide significant local storage for Micropython firmware, gcode scripts and potentially the GRBLHAL webui.
 
 ### UF2 Bootloader
 The PicoHAL microcontroller has a UF2 bootloader built in. This allows you to upgrade or change the firmware on the flexi as easily as copying a file to a USB drive.  To enter UF2 mode, hold the BOOT button while pulsing the RUN (reset) button or while applying power/connecting the USB cable.
@@ -63,13 +59,12 @@ Typical wiring for most open-loop stepper drivers:
 ![image](https://github.com/Expatria-Technologies/Flexi-HAL/assets/6061539/89e5df1e-06ef-4319-acb0-a30ee8e6447b)
 
 
-### Analog Spindle Control
+### PWM Spindle Control
+There is a 5V PWM output near the RJ45 connector that can be used for external PWM control for a laser or a second Neopixel string.
 
 
-
-
-### RS485 Spindle Control
-
+### RS485 Interface
+The PicoHAL has an RS485 interface with two connectors for easy pass-through/daisy chaining.  The direction control pin is assigned to GPIO27.  If required, a 120R termination resistor can be connected by soldering the bridge on the bottom side of the board.
 
 
 ### Attributions
