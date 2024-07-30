@@ -1,9 +1,9 @@
 ![Logo](/readme_images/logo_sm.jpg)
-# Flexi-HAL CNC Controller
+# PicoHAL CNC Controller
 <img src="/readme_images/Board_Photo.jpg" width="800">
 
 
-Expatria Technologies GRBLHAL and LinuxCNC (and more!) CNC control board
+Expatria Technologies GRBLHAL and LinuxCNC (and more!) CNC accessory board
 
 The key features of the PicoHAL:
 
