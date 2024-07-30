@@ -32,9 +32,7 @@ https://github.com/Expatria-Technologies/Remora-RP2040-W5500
 
 <img src="/readme_images/board_top.jpg" width="700">
 
-Bottom side pin labels:
 
-<img src="/readme_images/backside.png" width="700">
 
 ### RP2040 Microcontroller
 
@@ -51,16 +49,15 @@ To use the PicoHAL with
 The PicoHAL can be powered either externally with 5-24V or via USB.  The main Neopixel LED power pin is connected to the main input power.
 
 ### Shield Compatibility
-<img src="/readme_images/Stepper_Pins.jpg" width="300">
+The PicoHAL should be compatible with most shields that work with the Uno form factor.  The only caveat is that the PicoHAL uses 3.3V logic levels on the shield connector.  This is to preserve high-speed capability on the inputs and outputs.  The GPIO numbers are listed on the board.  Pins that are optimized to be inputs (they have a low-pass filter) have a white highlight.  The low-pass filter can be bypassed by soldering the bridges on the back side of the board.  The output pins are not filtered.
 
-The stepper drivers are designed to be used with IDC connectors that are quick to assemble.  Unfortunately you will need to ensure that at the external driver the high and low signal pairs are connected correctly as there is no standard pinout on these drivers.  The 8 pin connection allows you to run a high and low pair for every signal to ensure the best possible signal integrity.  The Flexi-HAL uses high speed digital isolators and differential RS-422 style signal drivers for the motion signals.
+Top side pin labels:
 
-When using the alarm input the external drivers need to be configured for open-drain, active-low output.  The alarmmoutput must be high impedance during normal operation.
+<img src="/readme_images/topside.png" width="700">
 
-Typical wiring for most open-loop stepper drivers: 
+Bottom side pin labels:
 
-![image](https://github.com/Expatria-Technologies/Flexi-HAL/assets/6061539/89e5df1e-06ef-4319-acb0-a30ee8e6447b)
-
+<img src="/readme_images/backside.png" width="700">
 
 ### PWM Spindle Control
 There is a 5V PWM output near the RJ45 connector that can be used for external PWM control for a laser or a second Neopixel string.
