@@ -41,9 +41,7 @@ The PicoHAL is based around the Raspberry Pi RP2040 microcontroller.  The unique
 ### UF2 Bootloader
 The PicoHAL microcontroller has a UF2 bootloader built in. This allows you to upgrade or change the firmware on the flexi as easily as copying a file to a USB drive.  To enter UF2 mode, hold the BOOT button while pulsing the RUN (reset) button or while applying power/connecting the USB cable.
 
-Once in bootloader mode, the Flexi will appear as a USB storage device called "RPI-RP2".  Simply copy the new firwmare to this USB drive and the board will automatically install it and reboot.
-
-To use the PicoHAL with
+Once in bootloader mode, the PicoHAL will appear as a USB storage device called "RPI-RP2".  Simply copy the new firwmare to this USB drive and the board will automatically install it and reboot.  Micropython firmware is loaded by following the RPI foundation documentation.
 
 ### Power Input
 The PicoHAL can be powered either externally with 5-24V or via USB.  The main Neopixel LED power pin is connected to the main input power.
