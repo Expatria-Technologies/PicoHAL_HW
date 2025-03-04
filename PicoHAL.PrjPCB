@@ -151,23 +151,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FACQPOTP
 
-[Document7]
-DocumentPath=PicoHAL.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=2FD7A5CA-1890-45CB-96AB-94166B7423FD
 Description=SMT_ONLY
@@ -252,7 +235,7 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=VarRevNo
-Value=A8.1
+Value=A9
 
 [Parameter2]
 Name=Title
@@ -260,7 +243,7 @@ Value=PicoHAL
 
 [Parameter3]
 Name=PCBREVNO
-Value=A8.1
+Value=A9
 
 [Parameter4]
 Name=PCBPARTNO
