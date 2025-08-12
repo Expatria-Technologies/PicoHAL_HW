@@ -235,7 +235,7 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=VarRevNo
-Value=A9
+Value=A10
 
 [Parameter2]
 Name=Title
@@ -243,7 +243,7 @@ Value=PicoHAL
 
 [Parameter3]
 Name=PCBREVNO
-Value=A9
+Value=A10
 
 [Parameter4]
 Name=PCBPARTNO
